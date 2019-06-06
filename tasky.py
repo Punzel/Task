@@ -60,6 +60,7 @@ def database(db):
 
 #Checks all URLs given and writes the results into the database
 def check(db):  
+    print ("checking URLs")
     # Check for the URLs and combine them with the regex if given. Try to request those URLS.
     for item in checklist:
         try:
