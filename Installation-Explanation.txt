@@ -1,11 +1,12 @@
 Python tasky.py
 
 To run the program you can either run the tasky  file in the dist folder, or you execute tasky.py from the command shell.
-To execute the code there needs to be the schema.sql in the folder as well as the list the script should take.
+To execute the code there needs to be the schema.sql in the folder as well as the list the script should take. The sleeping time for the file in the pyinstaller is set to 1 minute. 
 The list needs to be in a python file named mylist and the list itself also needs to be named mylist.
 
 To run the code with she command shell following libraries need to be installed:
 lxml (pip install lxml) and requests (pip install requests)
 The list needs to be in a python file named mylist and the list itself also needs to be named mylist. (or the names in the tasky.py need to be changed accordingly).
+For testing reasons the time the function calls the check again is 20 seconds. If you need longer or less time you can just change the time in line 40.
 
 In the folder right now is a test list in the file mylist.py. 
